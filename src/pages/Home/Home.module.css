@@ -1,0 +1,22 @@
+.container {
+    background: url('../../img/bg-bonsdrinks.jpg');
+    width: 1200px;
+    height: 700px;
+    margin-left: 350px;
+}
+
+.section {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.text {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.p{
+    color: #FFFFFF;
+    font-size: 18px;
+}

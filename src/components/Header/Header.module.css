@@ -1,0 +1,19 @@
+.header {
+    background-color: #000000;
+    height: 12vh;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 12vh;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 25px;
+    color: #00FF7F;
+    font-weight: bold;
+}
