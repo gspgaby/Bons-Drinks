@@ -11,11 +11,11 @@ export default function Routes(){
     return(
         <BrowserRouter>
             <Switch>
-            <Route exact path='/' component={Home} />
-        <Route exact path='/contato' component={Contato} />
-        <Route exact path='/drinks' component={Drinks} />
-        <Route exact path='/sobrenos' component={SobreNos} />
-        <Route exact path='/nossotime' component={NossoTime} />
+                <Route exact path='/' component={Home} />
+                <Route exact path='/contato' component={Contato} />
+                <Route exact path='/drinks' component={Drinks} />
+                <Route exact path='/sobrenos' component={SobreNos} />
+                <Route exact path='/nossotime' component={NossoTime} />
             </Switch>
         </BrowserRouter>
     )
