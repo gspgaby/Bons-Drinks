@@ -1,0 +1,25 @@
+    .titulo {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: grid;
+    justify-content: space-around;
+}
+
+.img {
+    grid-area: imagem;
+}
+
+.button{
+    background-color: #00FF7F;
+    font-weight: bold;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+}

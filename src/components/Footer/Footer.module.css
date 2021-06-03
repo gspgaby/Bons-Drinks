@@ -1,7 +1,10 @@
 .footer {
-    color: #FFFFFF;
+    color: #00FF7F;
+    background-color: #000000;
     bottom: 0;
     position: fixed;
-    height: 8vh;
+    height: 10vh;
     width: 100%;
+    align-items: center;
+    justify-content: center;
 }

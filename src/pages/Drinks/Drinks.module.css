@@ -1,0 +1,35 @@
+.drinksGrid{
+    display: grid;
+    justify-self: center;
+    grid-template-areas:
+        "title"
+        "navi "
+        "content";
+    gap: 20px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.buttonNavLink{
+    grid-area: navi;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button{
+    background-color: #00FF7F;
+    font-weight: bold;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+

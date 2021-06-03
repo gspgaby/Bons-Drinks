@@ -7,11 +7,11 @@ const Header = () => {
     <header className={styles.header}>
       <nav>
         <ul class={styles.container}>
-            <li><Link className={styles.link} to="/drinks">Drinks</Link></li>
-            <li><Link className={styles.link} to="/sobrenos">Sobre Nós</Link></li>
-            <li><Link className={styles.link} to="/"> Home </Link></li>
-            <li><Link className={styles.link} to="/contato">Contato</Link></li>
-            <li><Link className={styles.link} to="/nossotime">Nosso Time</Link></li>
+            <Link className={styles.link} to="/drinks">Drinks</Link>
+            <Link className={styles.link} to="/sobrenos">Sobre Nós</Link>
+            <Link className={styles.link} to="/"> Home </Link>
+            <Link className={styles.link} to="/contato">Contato</Link>
+            <Link className={styles.link} to="/nossotime">Nosso Time</Link>
         </ul>
       </nav>
     </header>

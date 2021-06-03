@@ -5,8 +5,8 @@ const Home = () => {
     return (
         <main className={styles.container}>
             <section className={styles.section}>  
-                <h1 className={styles.text}>Bons Drinks</h1>
-                <p className={styles.p}>Encontre os seus drinks preferidos em um só lugar</p>
+                <h1 className={styles.text}>Bons Drinks</h1><br/>
+                <h3 className={styles.text2}>Encontre os seus drinks preferidos em um só lugar</h3>
             </section>
         </main> 
     )

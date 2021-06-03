@@ -15,7 +15,7 @@ function Contato() {
                     <label>Nome:<input className={styles.input}/></label>
                     <label>Email:<input className={styles.input} type="email"/></label>
                     <textarea className={styles.textarea}>Digite sua mensagem aqui</textarea> 
-                    <button className={styles.btn}>Enviar</button>
+                    <button className={styles.button}>Enviar</button>
                 </form>
             </div>
         </main>

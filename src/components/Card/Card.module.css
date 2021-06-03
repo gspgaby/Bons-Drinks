@@ -1,0 +1,16 @@
+.cardGrid{
+    font-size: 18px;
+    display: grid;
+    grid-template-areas:
+     "text text img";
+}
+.cardImg{
+    grid-area: img;
+}
+.cardHeading{
+    grid-area: text;
+    font-size: 18px;
+}
+.cardText{
+    font-size: 18px;
+}
