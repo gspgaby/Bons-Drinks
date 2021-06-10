@@ -1,52 +1,41 @@
 .titulo {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    color: #000000;
-    margin-top: 10px;
-    margin-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .container {
-    display: grid;
-    grid-template-areas: "imagem";
-    justify-content: space-around;
+  display: grid;
+  grid-template-areas: "imagem";
+  justify-content: space-around;
 }
 
-
-.formulario {
-    display: grid;
-    justify-items: center;
-    font-family: Tahoma;
-    font-size: 30px;    
-    row-gap: 20px;
-    grid-area: formulario;
-    color: #000000;
-}
-.input{
-    font-size: 25px;
-    width: 500px;
-    height: 40px;
-}
-
-.labelText {
-    display: grid;
-    row-gap: 30px;
+.lista {
+  display: grid;
+  justify-self: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  gap: 20px;
+  grid-auto-flow: dense;
 }
 
 .textarea {
-    display: block;
-    width: 100%;
-    height: 120px;
-    border-radius: 5px;
-    border: 1px solid;
-    padding: 0;
-    font-size: 20px;
-    font-family: var(--body-font);
+  display: block;
+  width: 100%;
+  height: 120px;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 0;
+  font-size: 20px;
+  font-family: var(--body-font);
 }
 
-.text{
-    color: #000000;
-    font-size: 18px;
-    font-weight: bold;
+.text {
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
 }
